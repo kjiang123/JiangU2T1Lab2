@@ -18,6 +18,7 @@ public class ChatBot {
 
     // method that prints the weather
     public void weather() {
+        java.lang.Object system;
         System.out.println("I actually don't know much about the weather! Ha ha!");
         System.out.println("But I know it's warm and dry inside a computer! Ha ha!");
     }
@@ -44,4 +45,8 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
+    public void favoriteFood(String yourFood){
+        System.out.println("My favorite food is pizza,I also like your favorite food which is " + yourFood);
+    }
+    public double avgNumbers(int num1, int num2, int num3) {return (num1+num2+num3)/3; }
 }
